@@ -1,3 +1,4 @@
+
 {
 
 "result": true,
@@ -7,8 +8,13 @@
 "Reply.lua":"https://t.me/Snap_source",
 
 "games.lua":"https://t.me/Snap_source",
-  
+
+"commands.lua":"https://t.me/Snap_source",
+
 "all.lua":"https://t.me/Snap_source",
+
+"admin.lua":"https://t.me/Snap_source",
+
 }
 
 }
