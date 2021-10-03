@@ -30,7 +30,7 @@ local function games(msg)
    *☩~⪼لعبه الحزوره ↞لعبة التفكير*
    *☩~⪼لعبه المعاني ↞ العبه الشهيره* 
   ٴ*✟•━━━━━━ 𝙕𝙈 ━━━━━━━•✟*
-  [TEAM ZMRD ⁦](t.me/LLZ2L)
+  [⍆𝙏𝙀𝘼𝙈 𝙎𝙉𝘼𝙋](t.me/Snap_source) 
   ]]
   send(msg.chat_id_, msg.id_,Text_Games) 
   end
