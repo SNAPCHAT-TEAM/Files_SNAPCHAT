@@ -1,43 +1,28 @@
 local function Reply(msg)
 local text = msg.content_.text_
 if not database:get(bot_id..'Reply:Status'..msg.chat_id_) then
-if text == 'مطور السورس' or text == 'مطور كايلي' then
-TextReply = '[مطور السورس](t.me/PPPPZ)'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
-return false
-end
-if text == 'رسول' or text == 'رسول' then
-TextReply = '[ مطور السورس ](t.me/PPPPZ)'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
-return false
-end
-if text == '@PPPPZ' or text == '@ppppz' then
-TextReply = 'هذا مطور سورس كايلي'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
-return false
-end
 if text == 'هلو' then
 TextReply = 'هݪاﯠات يڪݪبـي نـﯠࢪت 💕🥺'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'شلونكم' then
-TextReply = ' تمامہ ۅانتہَ شۅنڪك شخباࢪڪك'
+TextReply = ' تّمَـأّمَ وِأّنِتّــهِ شٍخَبِـأّڒٍګ عٌمَـغٌيِّΞ'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'شلونك' then
-TextReply = 'تمامہ ۅنتۿہ ؏ـمࢪيہ'
+TextReply = 'تمام وانته عمغي〰'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'تمام' then
-TextReply = 'تدۅم ياࢪبيہ'
+TextReply = 'تـــــد୨ومࣩ يަـاࠗ رب߬༽'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'هلاو' then
-TextReply = 'ﮪـݪاوات حبيبيہ.'
+TextReply = 'هلــوات كلـبي نورتنـه𖤶.'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -47,22 +32,22 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'هاي' then
-TextReply = 'ههاياتہ يبعدِ حيݪييہ'
+TextReply = 'هــايات يبعـد حيـلي𖤹'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'اريد اكبل' then
-TextReply = 'انيہ ۿـم اࢪيد اڪبݪ قابݪ ࢪبيہ وحد'
+TextReply = 'انـي هـم اريـد اكبل ربـي وحد😜😹⏝'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'لتزحف' then
-TextReply = 'دعوفه يزحف شعليك بي'
+TextReply = 'اي مو زاحـف عالصـغيرة🙂😹凸'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'كلخرا' then
-TextReply = 'ماڪݪك פــبيبيہ'
+TextReply = 'مـا اكلك حياتـي لتعب نفـسك😔😹𖤧'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -122,7 +107,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'انجب' then
-TextReply = 'صاࢪ حبيہَ'
+TextReply = 'صار حبيبي ع راسـي انتـه𖤛'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -247,7 +232,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'ههههه' then
-TextReply = 'دايمۿہ انشااݪلۿ'
+TextReply = 'اطلق ضحـكة قسم ☺️🌾༼'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -317,5 +302,5 @@ end
 
 end
 return {
-KYLIE = Reply
+KAITO = Reply
 }
