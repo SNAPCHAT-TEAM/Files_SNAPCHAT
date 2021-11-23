@@ -266,12 +266,12 @@ TextReply = 'حـبـيبـي ولله فـداڪ عمࢪيي💘🙊'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'امير دليم' then
+if text == 'دنيرو' then
 TextReply = 'هـاذ مـطـوࢪ سـوࢪسـات💘✨'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'امير دليمي' then
+if text == 'دكتور عبس' then
 TextReply = 'خـوش مـطوࢪ حـباب🥺💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
